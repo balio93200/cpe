@@ -6,7 +6,7 @@
 class Contact
 {
 public:
-    bool fill();                      // false si EOF (Ctrl+D)
+    bool fill();
     void displayRow(int index) const;
     void displayFull() const;
 
