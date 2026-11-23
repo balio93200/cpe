@@ -7,7 +7,7 @@ bool PhoneBook::add()
 {
     if (!_contacts[_next].fill())
         return false;
-    _next = (_next + 1) % 8;      // écrase le plus ancien après 8
+    _next = (_next + 1) % 8;
     if (_count < 8)
         _count++;
     return true;
